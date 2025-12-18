@@ -25,6 +25,10 @@ if [ -x "$(command -v xscreensaver)" ]; then
     xscreensaver --no-splash &> /dev/null &
 fi
 
+if [ -x "$(command -v networkd-notify)" ]; then
+    networkd-notify &> /dev/null &
+fi
+
 leftwm-command "LoadTheme $SCRIPTPATH/theme.ron"
 
 if [ -x "$(command -v polybar)" ]; then

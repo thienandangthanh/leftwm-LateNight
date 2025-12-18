@@ -2,6 +2,7 @@
 
 leftwm command "UnloadTheme"
 
+pkill -f networkd-notify
 pkill xscreensaver
 pkill polybar
 pkill dunst

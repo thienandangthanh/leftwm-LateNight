@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-pacman -S \
+paru -S \
 	dunst \
 	feh \
 	jq \
 	polybar \
 	picom \
-	xscreensaver
+	xscreensaver \
+	networkd-notify
