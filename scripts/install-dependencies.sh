@@ -5,6 +5,6 @@ paru -S \
 	feh \
 	jq \
 	polybar \
-	picom \
+	xcompmgr \
 	xscreensaver \
 	networkd-notify
